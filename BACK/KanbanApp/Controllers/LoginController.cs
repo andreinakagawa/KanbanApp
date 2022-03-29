@@ -35,15 +35,16 @@ namespace KanbanApp.Controllers
         [HttpPost]
         public async Task<ActionResult<UsuarioToken>> Post([FromBody] Usuario user)
         {
+            //verifica login e senha
             var result = await _signInManager.PasswordSignInAsync(user.Login, user.Senha, isPersistent: false, lockoutOnFailure: false);
 
-            if (result.Succeeded)
+            if (result.Succeeded) //login e senha ok
             {
                 return BuildToken(user);
             }
             else
             {
-                return BadRequest(ModelState);
+                return Unauthorized(ModelState); //retorna status 401
             }
         }
 

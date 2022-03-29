@@ -7,7 +7,7 @@ namespace KanbanApp.Model
 {
     public class UsuarioToken
     {
-        public string Token { get; set; }
-        public DateTime ExpirationDate { get; set; }
+        public string Token { get; set; } //token
+        public DateTime ExpirationDate { get; set; } //data de expiração
     }
 }

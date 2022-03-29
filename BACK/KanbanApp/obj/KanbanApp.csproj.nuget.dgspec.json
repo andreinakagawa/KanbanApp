@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\Git\\github\\KanbanApp\\BACK\\KanbanApp\\KanbanApp.csproj": {}
+    "C:\\Users\\andre\\source\\repos\\KanbanApp\\KanbanApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\Git\\github\\KanbanApp\\BACK\\KanbanApp\\KanbanApp.csproj": {
+    "C:\\Users\\andre\\source\\repos\\KanbanApp\\KanbanApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\Git\\github\\KanbanApp\\BACK\\KanbanApp\\KanbanApp.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\KanbanApp\\KanbanApp.csproj",
         "projectName": "KanbanApp",
-        "projectPath": "C:\\Users\\andre\\Git\\github\\KanbanApp\\BACK\\KanbanApp\\KanbanApp.csproj",
+        "projectPath": "C:\\Users\\andre\\source\\repos\\KanbanApp\\KanbanApp.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\Git\\github\\KanbanApp\\BACK\\KanbanApp\\obj\\",
+        "outputPath": "C:\\Users\\andre\\source\\repos\\KanbanApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
